@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raj Kumar | Software Engineer</title>
+    <meta name="description"
+        content="Portfolio of Raj Kumar, a Software Engineer specializing in Full Stack Development, 3D Rendering, and Data Pipelines.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourportfolio.com/">
+    <meta property="og:title" content="Raj Kumar - Software Engineer">
+    <meta property="og:description"
+        content="Full Stack Developer specializing in React, Python, Node.js, and 3D rendering. Building scalable applications and efficient data pipelines.">
+    <meta property="og:image" content="assets/profile.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://yourportfolio.com/">
+    <meta property="twitter:title" content="Raj Kumar - Software Engineer">
+    <meta property="twitter:description"
+        content="Full Stack Developer specializing in React, Python, Node.js, and 3D rendering.">
+    <meta property="twitter:image" content="assets/profile.png">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="background-gradient"></div>
+    <div id="spotlight"></div>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">RK.</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-content">
+                <div class="hero-main">
+                    <div class="profile-picture fade-in">
+                        <img src="assets/profile.jpg" alt="Raj Kumar - Software Engineer">
+                    </div>
+                    <div class="hero-text">
+                        <h2 class="greeting fade-in">Hello, I'm</h2>
+                        <h1 class="name fade-in delay-1">Raj Kumar</h1>
+                        <h3 class="role fade-in delay-2">Software Engineer</h3>
+                    </div>
+                </div>
+                <p class="tagline fade-in delay-3">Building robust pipelines, interactive 3D experiences, and scalable
+                    full-stack applications.</p>
+                <div class="hero-buttons fade-in delay-4">
+                    <a href="#experience" class="btn primary-btn">View Work</a>
+                    <a href="Resume.pdf" download class="btn secondary-btn">
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                    <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                </div>
+                <div class="social-links fade-in delay-5">
+                    <a href="https://github.com/stickqz" target="_blank" aria-label="GitHub"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/Raj-Kumar" target="_blank" aria-label="LinkedIn"><i
+                            class="fab fa-linkedin"></i></a>
+                    <a href="mailto:rkmehta246@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content glass-card">
+                    <p>
+                        I am a Computer Science graduate from <strong>IIIT Kota</strong> (2024) with a passion for
+                        solving complex problems.
+                        Currently working as a <strong>Software Engineer at EmptyCup</strong>, I specialize in backend
+                        optimization,
+                        3D scene rendering, and building efficient developer tools.
+                    </p>
+                    <p>
+                        My expertise spans across the full stack, from crafting intuitive UIs
+                        to architecting scalable backends. I thrive in
+                        environments that challenge
+                        me to learn and adapt quickly.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category glass-card">
+                        <h3><i class="fas fa-code"></i> Languages</h3>
+                        <div class="tech-icons">
+                            <div class="tech-item" data-tooltip="JavaScript">
+                                <i class="devicon-javascript-plain colored"></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="tech-item" data-tooltip="TypeScript">
+                                <i class="devicon-typescript-plain colored"></i>
+                                <span>TypeScript</span>
+                            </div>
+                            <div class="tech-item" data-tooltip="Python">
+                                <i class="devicon-python-plain colored"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="tech-item" data-tooltip="Rust">
+                                <i class="devicon-rust-plain colored"></i>
+                                <span>Rust</span>
+                            </div>
+                            <div class="tech-item" data-tooltip="C++">
+                                <i class="devicon-cplusplus-plain colored"></i>
+                                <span>C/C++</span>
+                            </div>
+                            <div class="tech-item" data-tooltip="SQL">
+                                <i class="devicon-mysql-plain colored"></i>
+                                <span>SQL</span>
+                            </div>
+                            <div class="tech-item" data-tooltip="HTML5">
+                                <i class="devicon-html5-plain colored"></i>
+                                <span>HTML/CSS</span>
+                            </div>
+                            <div class="tech-item" data-tooltip="Svelte">
+                                <i class="devicon-svelte-plain colored"></i>
+                                <span>Svelte</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category glass-card">
+                        <h3><i class="fas fa-laptop-code"></i> Frontend</h3>
+                        <div class="tech-icons">
+                            <div class="tech-item" data-tooltip="React">
+                                <i class="devicon-react-original colored"></i>
+                                <span>React</span>
+                            </div>
+                            <div class="tech-item" data-tooltip="React Native">
+                                <i class="devicon-react-original colored"></i>
+                                <span>React Native</span>
+                            </div>
+                            <div class="tech-item" data-tooltip="Next.js">
+                                <i class="devicon-nextjs-plain"></i>
+                                <span>Next.js</span>
+                            </div>
+                            <div class="tech-item" data-tooltip="SvelteKit">
+                                <i class="devicon-svelte-plain colored"></i>
+                                <span>SvelteKit</span>
+                            </div>
+                            <div class="tech-item" data-tooltip="Tailwind CSS">
+                                <i class="devicon-tailwindcss-plain colored"></i>
+                                <span>Tailwind</span>
+                            </div>
+                            <div class="tech-item" data-tooltip="THREE.js">
+                                <i class="devicon-threejs-original"></i>
+                                <span>THREE.js</span>
+                            </div>
+                            <div class="tech-item" data-tooltip="Bootstrap">
+                                <i class="devicon-bootstrap-plain colored"></i>
+                                <span>Bootstrap</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category glass-card">
+                        <h3><i class="fas fa-server"></i> Backend</h3>
+                        <div class="tech-icons">
+                            <div class="tech-item" data-tooltip="Node.js">
+                                <i class="devicon-nodejs-plain colored"></i>
+                                <span>Node.js</span>
+                            </div>
+                            <div class="tech-item" data-tooltip="Express.js">
+                                <i class="devicon-express-original"></i>
+                                <span>Express.js</span>
+                            </div>
+                            <div class="tech-item" data-tooltip="Flask">
+                                <i class="devicon-flask-original"></i>
+                                <span>Flask</span>
+                            </div>
+                            <div class="tech-item" data-tooltip="FastAPI">
+                                <i class="devicon-fastapi-plain colored"></i>
+                                <span>FastAPI</span>
+                            </div>
+                            <div class="tech-item" data-tooltip="PostgreSQL">
+                                <i class="devicon-postgresql-plain colored"></i>
+                                <span>PostgreSQL</span>
+                            </div>
+                            <div class="tech-item" data-tooltip="MongoDB">
+                                <i class="devicon-mongodb-plain colored"></i>
+                                <span>MongoDB</span>
+                            </div>
+                            <div class="tech-item" data-tooltip="Redis">
+                                <i class="devicon-redis-plain colored"></i>
+                                <span>Redis</span>
+                            </div>
+                            <div class="tech-item" data-tooltip="SQLAlchemy">
+                                <i class="devicon-sqlalchemy-plain"></i>
+                                <span>SQLAlchemy</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category glass-card">
+                        <h3><i class="fas fa-tools"></i> Tools</h3>
+                        <div class="tech-icons">
+                            <div class="tech-item" data-tooltip="Git">
+                                <i class="devicon-git-plain colored"></i>
+                                <span>Git/GitHub</span>
+                            </div>
+                            <div class="tech-item" data-tooltip="Docker">
+                                <i class="devicon-docker-plain colored"></i>
+                                <span>Docker</span>
+                            </div>
+                            <div class="tech-item" data-tooltip="Linux">
+                                <i class="devicon-linux-plain"></i>
+                                <span>Linux</span>
+                            </div>
+                            <div class="tech-item" data-tooltip="Azure">
+                                <i class="devicon-azure-plain colored"></i>
+                                <span>Azure</span>
+                            </div>
+                            <div class="tech-item" data-tooltip="Blender">
+                                <i class="devicon-blender-original colored"></i>
+                                <span>Blender API</span>
+                            </div>
+                            <div class="tech-item" data-tooltip="VS Code">
+                                <i class="devicon-vscode-plain colored"></i>
+                                <span>VS Code</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <div class="container">
+                <h2 class="section-title">Experience</h2>
+                <div class="timeline">
+                    <a href="https://emptycup3d.com" target="_blank" class="timeline-item glass-card card-link">
+                        <div class="timeline-date">Jan 2024 - Present</div>
+                        <div class="timeline-content">
+                            <h3>EmptyCup</h3>
+                            <h4>Software Engineer</h4>
+                            <ul>
+                                <li>Designed and implemented a robust data migration pipeline using SQLite, MySQL, and
+                                    Click CLI.</li>
+                                <li>Built critical CLI tools with Python to automate developer workflows.</li>
+                                <li>Optimized complex 3D scene rendering with THREE.js and Blender API, reducing system
+                                    load by >50%.</li>
+                                <li>Developed modular architecture for 3D model processing using Azure VMs and Python
+                                    RQ.</li>
+                                <li>Enhanced frontend performance, reducing load times by 80% and improving UI/UX.</li>
+                            </ul>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-container">
+                    <!-- Project 1 -->
+                    <a href="https://github.com/stickqz/solana-dex-client" target="_blank"
+                        class="project-card glass-card card-link">
+                        <div class="project-number">01</div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3>Solana DEX Client</h3>
+                                <span class="date"><i class="far fa-calendar"></i> Sept 2025</span>
+                            </div>
+                            <p>High-performance Rust-based DEX client featuring UDP request handling, background
+                                blockhash caching, and hot wallet management. Optimized for low-latency trading on
+                                Solana.</p>
+                            <div class="tech-stack">
+                                <i class="devicon-rust-plain colored" title="Rust"></i>
+                                <i class="devicon-python-plain colored" title="Python"></i>
+                                <i class="fas fa-network-wired" title="UDP/Networking"></i>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Project 2 -->
+                    <a href="https://github.com/stickqz/sentiment-analysis" target="_blank"
+                        class="project-card glass-card card-link">
+                        <div class="project-number">02</div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3>Crypto Sentiment Analysis Engine</h3>
+                                <span class="date"><i class="far fa-calendar"></i> Oct 2025</span>
+                            </div>
+                            <p>Real-time sentiment engine analyzing data from Reddit, Twitter, and News APIs using NLP.
+                                Includes a FastAPI backend and backtesting engine for validating trading strategies.</p>
+                            <div class="tech-stack">
+                                <i class="devicon-python-plain colored" title="Python"></i>
+                                <i class="devicon-fastapi-plain colored" title="FastAPI"></i>
+                                <i class="fas fa-brain" title="NLP"></i>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Project 3 -->
+                    <a href="https://github.com/stickqz/belt" target="_blank" class="project-card glass-card card-link">
+                        <div class="project-number">03</div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3>Belt: Mobile App</h3>
+                                <span class="date"><i class="far fa-calendar"></i> Sep 2025</span>
+                            </div>
+                            <p>Full-stack expense management app with React Native/Expo. Features real-time updates,
+                                PostgreSQL (Neon), Redis caching, and Clerk auth via a robust RESTful API.</p>
+                            <div class="tech-stack">
+                                <i class="devicon-react-original colored" title="React Native"></i>
+                                <i class="devicon-postgresql-plain colored" title="PostgreSQL"></i>
+                                <i class="devicon-redis-plain colored" title="Redis"></i>
+                                <i class="devicon-express-original" title="Express"></i>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Project 4 -->
+                    <a href="https://skribble-huddle.vercel.app/" target="_blank"
+                        class="project-card glass-card card-link">
+                        <div class="project-number">04</div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3>WeDraw: Collaborative Canvas</h3>
+                                <span class="date"><i class="far fa-calendar"></i> Jan 2023</span>
+                            </div>
+                            <p>Real-time video conferencing for 8 users via Huddle01 API & WebRTC. Includes a
+                                synchronized
+                                scribble canvas using WebSockets for interactive remote collaboration.</p>
+                            <div class="tech-stack">
+                                <i class="devicon-react-original colored" title="React"></i>
+                                <i class="devicon-socketio-original" title="WebSockets"></i>
+                                <i class="fas fa-video" title="WebRTC"></i>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Project 5 -->
+                    <a href="https://github.com/stickqz/horoscope-api" target="_blank"
+                        class="project-card glass-card card-link">
+                        <div class="project-number">05</div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3>Horoscope API</h3>
+                                <span class="date"><i class="far fa-calendar"></i> Oct 2025</span>
+                            </div>
+                            <p>TypeScript backend service generating daily horoscopes based on zodiac signs. Features
+                                JWT authentication with auto zodiac detection, 7-day horoscope history, rate limiting,
+                                and Swagger documentation.</p>
+                            <div class="tech-stack">
+                                <i class="devicon-typescript-plain colored" title="TypeScript"></i>
+                                <i class="devicon-nodejs-plain colored" title="Node.js"></i>
+                                <i class="devicon-postgresql-plain colored" title="PostgreSQL"></i>
+                                <i class="devicon-sequelize-plain" title="Sequelize"></i>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Project 6 -->
+                    <a href="https://github.com/stickqz/IMS" target="_blank" class="project-card glass-card card-link">
+                        <div class="project-number">06</div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3>ShopSense: Inventory Management</h3>
+                                <span class="date"><i class="far fa-calendar"></i> Jun 2023</span>
+                            </div>
+                            <p>MERN stack inventory management system. Supports real-time stock, personnel, and billing.
+                                Improved team productivity by 40% with JWT-based security.</p>
+                            <div class="tech-stack">
+                                <i class="devicon-mongodb-plain colored" title="MongoDB"></i>
+                                <i class="devicon-express-original" title="Express"></i>
+                                <i class="devicon-react-original colored" title="React"></i>
+                                <i class="devicon-nodejs-plain colored" title="Node.js"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <!-- <section id="achievements" class="section">
+            <div class="container">
+                <h2 class="section-title">Achievements</h2>
+                <div class="achievements-grid">
+                    <div class="achievement-card glass-card">
+                        <i class="fas fa-trophy"></i>
+                        <h3>LNMHACKS 5.0 Winner</h3>
+                        <p>Won first place in Huddle01 track among 200 teams.</p>
+                    </div>
+                    <div class="achievement-card glass-card">
+                        <i class="fas fa-certificate"></i>
+                        <h3>React - The Complete Guide</h3>
+                        <p>Udemy course certification.</p>
+                    </div>
+                    <div class="achievement-card glass-card">
+                        <i class="fas fa-code-branch"></i>
+                        <h3>DSA Problem Solving</h3>
+                        <p>Solved 400+ DSA problems on various platforms.</p>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-content glass-card">
+                    <p>My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to
+                        get back to you!</p>
+                    <div class="contact-info">
+                        <a href="mailto:rkmehta246@gmail.com" class="contact-link"><i class="fas fa-envelope"></i>
+                            rkmehta246@gmail.com</a>
+                        <a href="tel:+918235490036" class="contact-link"><i class="fas fa-phone"></i> +91 8235490036</a>
+                        <div class="contact-socials">
+                            <a href="https://linkedin.com/in/raj-kumar-246" target="_blank" class="social-icon-link"><i
+                                    class="fab fa-linkedin"></i></a>
+                            <a href="https://x.com/stickqz_" target="_blank" class="social-icon-link"><i
+                                    class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Scroll to Top Button -->
+    <button id="scroll-top" class="scroll-top" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> Raj Kumar. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
